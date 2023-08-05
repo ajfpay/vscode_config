@@ -1,0 +1,40 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "FiraCode Nerd Font, Inter",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    // "editor.inlayHints.fontFamily": "Arial",
+    "vim.easymotion": true,
+    "vim.targets.enable": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "m",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  }
+}
